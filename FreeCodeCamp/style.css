@@ -1,0 +1,231 @@
+body { 
+background-color: lightgray; }
+.bgimage {
+  background: url(https://habrastorage.org/files/ecd/aec/bf6/ecdaecbf6d654a6f9c62853a1e557848.jpg) center;
+  background-size: cover;
+  /*height: 800px;*/
+   margin-top: -20px;
+   padding-top: 50px;
+   text-align: center;
+   min-height: 800px;
+}
+.bgimage2 {
+  background-image: url(https://habrastorage.org/files/cb2/fe6/75e/cb2fe675e5bc4f4e970ed28ae79f056d.jpg);
+  background-size: cover;
+  min-height: 800px;
+  /*height: 800px;*/
+}
+/*
+.bgimage3 {
+  background: url(http://cdn.paper4pc.com/images/free-blue-bubbles-wallpaper-1.jpg) center;
+  
+  height: 800px;
+   margin-top: -20px;
+}
+*/
+
+.contacts {
+  background-image: url(https://habrastorage.org/files/5e3/f72/0de/5e3f720deba94802a995d72431e8a64c.jpg);
+  background-size: cover;
+  min-height: 800px;
+  padding: 100px 0;
+  /*height: 800px;*/
+}
+
+
+.bgimage-inside {
+padding-top: 37.36%; /* this is actually (426/1140)*100 */
+height: 800px;
+
+}
+h2 {
+  font-family: 'Lobster', cursive;
+  color: #FFFFFF;
+  text-shadow: 1px 1px 2px black;
+}
+
+ /*Navigation Bar*/
+
+#nav-list a {
+  text-align: center;
+}
+#nav-list a:hover {
+  background-color: darkgray;
+  color: white;
+}
+/*Home header*/
+
+
+h1 {
+  font-size: 100px ;
+  font-family: 'Lobster', cursive;
+  text-shadow: 1px 1px 2px black;
+}
+
+
+
+hr.intro-divider {
+  border: 1px outset rgba(255, 255, 255, 0.2);
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.6);
+  width: 50%;
+}
+
+.intro-message {
+    padding-top: 20%;
+    padding-bottom: 20%;
+    height: 800px;
+    width: 100%;
+}
+
+@media(max-width: 768px) {
+  ul.intro-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.intro-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+}
+
+/*About*/
+
+.photo {
+  width: 30%;
+}
+
+.about-section {
+  padding: 50px;
+  text-align: justify;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+h2 .section-heading {
+font-size: 4em;
+}
+
+/*Portfolio*/
+#small-text {
+  color: white;
+}
+
+#portfolio .portfolio-item .portfolio-link {
+  display: block;
+  position: relative;
+  max-width: 400px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover {
+  background: rgba(0, 0, 0, .7);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: all ease .5s;
+  -webkit-transition: all ease .5s;
+  -moz-transition: all ease .5s;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
+  opacity: 1;
+}
+
+#portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
+  position: absolute;
+  width: 100%;
+  height: 20px;
+  font-size: 20px;
+  text-align: center;
+  top: 50%;
+  margin-top: -12px;
+  color: #fff;
+}
+
+#portfolio .portfolio-item .portfolio-caption {
+  max-width: 400px;
+  margin: 0 auto;
+  background-color: rgba(0,0,0, 0.8);
+  text-align: center;
+  padding: 25px;
+}
+
+#portfolio .portfolio-item .portfolio-caption h4 {
+  color: #fff;
+  text-transform: none;
+  margin: 0;
+}
+
+#portfolio .portfolio-item .portfolio-caption p {
+  font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  margin: 0;
+}
+
+#portfolio * {
+  z-index: 2;
+}
+
+.portfolio-link {
+  max-height: 195px;
+  overflow: hidden;
+}
+  #portfolio .portfolio-item {
+    margin: 0 0 30px;
+  }
+section {
+  background: url(https://habrastorage.org/files/d91/f90/dd1/d91f90dd1202430d80538f883e58846a.jpg) center ;
+  background-size: cover;
+
+}
+
+ .portfolio-hover .fa {
+  font-size: 3em;
+ }
+/*Contact*/
+
+.banner ul {
+    margin-bottom: 0;
+}
+
+.banner-social-buttons {
+    float: right;
+    margin-top: 0;
+}
+
+@media(max-width:1199px) {
+    ul.banner-social-buttons {
+        float: left;
+        margin-top: 15px;
+    }
+}
+
+
+
+    ul.banner-social-buttons > li {
+        display: block;
+        margin-bottom: 20px;
+        padding: 0;
+    }
+
+    ul.banner-social-buttons > li:last-child {
+        margin-bottom: 0;
+    }
+
+h2.connect {
+   margin: 0;
+   color: rgba(0, 0, 0, 0.9);
+}
+
+/*Footer*/
+
+footer {
+  padding: 40px;
+}
+
+/*The end*/
+
